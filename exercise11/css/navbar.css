@@ -1,0 +1,44 @@
+/* navbar */
+.navbar-default {
+    border-radius: 0;
+    background-color: #7B1FA2;
+    border-color: #610119;
+}
+/* Title */
+.navbar-default .navbar-brand {
+    color: #FFD600;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #FFD600;
+}
+/* Link */
+.navbar-default .navbar-nav > li > a {
+    color: #FFD600;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #FFD600;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #555;
+    background-color: #FFD600;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: #101010;
+}
+/* Caret */
+.navbar-default .navbar-nav > .dropdown > a .caret {
+    border-top-color: #FFD600;
+    border-bottom-color: #101010;
+}
+
+.navbar-toggle{
+    border: 1px #101010 solid;
+    color: #101010;
+}

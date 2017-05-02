@@ -1,0 +1,12 @@
+.container-apartados span{
+    color: #000;
+    font-size: 20px;
+    border-bottom: 3px solid #610119;
+}
+.container-apartados img:hover{
+    opacity: 0.5;
+}
+
+.container-apartado{
+    background-color: #0c7990;
+}
