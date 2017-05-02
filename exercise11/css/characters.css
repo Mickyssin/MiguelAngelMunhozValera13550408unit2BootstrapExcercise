@@ -1,0 +1,25 @@
+body{
+	height: 100vh;
+}
+
+#container-characters{
+	margin-top: 175px;
+	text-align: justify-all;
+}
+
+#container-table{
+	margin-top: 5px;
+}
+
+#container-row{
+	border: 1px solid #4CAF50;
+	height: 250px;
+}
+
+footer{
+    text-align: center;
+    padding: 50px;
+    height: 10%;
+    background-color: #4aba91;
+    color: white;
+}

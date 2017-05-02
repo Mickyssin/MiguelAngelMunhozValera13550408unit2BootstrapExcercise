@@ -7,13 +7,94 @@
     <script src="lib/js/jquery-3.1.1.min.js"></script>
     <script src="lib/js/bootstrap.min.js"></script>
     <script src="https://use.fontawesome.com/a65369228a.js"></script>
+    <script src="js/navbar.js"></script>
 
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/content.css">
+    <link rel="stylesheet" href="css/characters.css">
 </head>
 <body>
-	<object name="navbarIndex" type="text/html" data="menu.html" style="width: 100%"></object>
+	<nav class="navbar navbar-default navbar-inverse navbar-fixed-top affix navbar-custom" role="navigation">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            Menu <i class="fa fa-bars"></i>
+        </button>
+        <a class="navbar-brand" href="index.html" target="self">The Legend of Zelda</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+        <form class=" navbar-form navbar-right" >
+            <div class="form-group">
+
+                <input type="search" class="form-control" name="" id="" placeholder="Search...">
+            </div>
+            <button type="submit" class="btn btn-success">Search</button>
+        </form>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="characters.html" target="self">Characters</a></li>
+            <li><a href="#">Games</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">More <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                    <li><a href="recomendations.html" target="self">Recomendations</a></li>
+                    <li><a href="http://zelda.wikia.com/wiki/Zeldapedia" target="_blank">Wiki-Zelda</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div><!-- /.navbar-collapse -->
+</nav>
 	
+    <div class="container" id="container-characters">
+        <div class="row" id="container-table">
+            <div class="col-lg-4 col-md-4 col-sm-12" id="container-row">
+                <h2>Princess Zelda</h2>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12" id="container-row">
+                <div class="container-content">
+                        <img src="public/img/zelda.jpg" alt="" class="img-responsive">
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12" id="container-row">
+                <p>The princess Zelda has been an iconic character within the serie, after all, the saga carries her name on it. She tends to be the princess being rescued by Link.</p>
+            </div>
+        </div>
+
+        <div class="row" id="container-table">
+            <div class="col-lg-4 col-md-4 col-sm-12" id="container-row">
+                <h2>Link</h2>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12" id="container-row">
+                <div class="container-content">
+                        <img src="public/img/lonk.jpg" alt="" class="img-responsive">
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12" id="container-row">
+                <p>The hero of time. The one who's destiny is to stop the forces of chaos and restore the balance to the word. Carrier of the courage triforce, he fights againts the evils (usually being Gannon) to protect Hyrule/Termina (the world) from the evil.</p>
+            </div>
+        </div>
+
+        <div class="row" id="container-table">
+            <div class="col-lg-4 col-md-4 col-sm-12" id="container-row">
+                <h2>Gannondorf</h2>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12" id="container-row">
+                <div class="container-content">
+                        <img src="public/img/gannondorf.jpg" alt="" class="img-responsive">
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12" id="container-row">
+                <p>The dessert thief, the one bounded to perform chaos and dissorder on the earth</p>
+            </div>
+        </div>
+    </div>
+
+<footer>
+    <div class="container">
+        <span>The Legend of Zelda fan made Webpage &copy</span>
+    </div>
+</footer>
 </body>
 </html>

@@ -13,6 +13,12 @@ object{
 
 #header-container{
     background-color: #4CAF50;
+    margin-top: 150px;
+}
+
+#header-image{
+    margin: auto;
+    margin-top: 30px;
 }
 
 header{
@@ -42,7 +48,7 @@ header{
 footer{
     text-align: center;
     padding: 50px;
-    height: 10vh;
+    height: 10%;
     background-color: #4aba91;
     color: white;
 }

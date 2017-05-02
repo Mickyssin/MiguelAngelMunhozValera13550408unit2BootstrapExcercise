@@ -1,12 +1,20 @@
-.container-apartados span{
-    color: #000;
+.container-contents span{
+    color: #7B1FA2;
     font-size: 20px;
-    border-bottom: 3px solid #610119;
+    border-bottom: 3px solid #FFD600;
 }
-.container-apartados img:hover{
+.container-contents img:hover{
     opacity: 0.5;
 }
 
-.container-apartado{
+.container-content{
     background-color: #0c7990;
+}
+
+footer{
+    text-align: center;
+    padding: 50px;
+    height: 10%;
+    background-color: #4aba91;
+    color: white;
 }
